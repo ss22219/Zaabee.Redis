@@ -10,7 +10,7 @@ namespace UnitTest
     public class HashOperateUnitTest
     {
         private readonly IZaabeeRedisClient _client =
-            new ZaabeeRedisClient(new RedisConfig("192.168.78.152:6379,abortConnect=false,syncTimeout=3000"),
+            new ZaabeeRedisClient(new RedisConfig("wolfapp.cn:6379,abortConnect=false,syncTimeout=3000"),
                 new Serializer());
 
         [Fact]
